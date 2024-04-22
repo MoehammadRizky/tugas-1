@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="max-w-2xl m-auto my-8 space-y-6">
+      <a
+        href="/"
+        id="editBtn"
+        class="bg-blue-500 text-white mt-4 p-1 px-6 rounded-xl"
+      >
+        Kembali</a
+      >
+      <form action="" id="form">
+        <p>Ketik Title dibawah!</p>
+        <input
+          type="name"
+          name="name"
+          id="name"
+          class="mb-5 w-[700px] border-2 border-black p-2 rounded-xl"
+          placeholder="ex: berlari diatas awan"
+        />
+        <p>Ketik author dibawah!</p>
+        <input
+          type="name"
+          name="author"
+          id="author"
+          class="mb-5 w-[100px] border-2 border-black p-1 rounded-xl"
+          placeholder="ex: Rizky"
+        />
+        <p>Mohon masukkan link gambar dibawah!</p>
+        <input
+          type="name"
+          name="cover"
+          id="cover"
+          class="mb-5 w-[200px] border-2 border-black p-1 rounded-xl"
+          placeholder="ex: https//blablabla"
+        />
+        <p>Ketik Content dibawah!</p>
+        <textarea
+          name="content"
+          id="content"
+          cols="100"
+          rows="50"
+          class="border-2 border-black p-2 rounded-xl"
+        ></textarea>
+        <button class="bg-green-500 text-white mt-4 p-1 px-6 rounded-xl">
+          Tambahkan
+        </button>
+      </form>
+    </main>
+
+    <script src="makeBlog.js"></script>
+  </body>
+</html>
